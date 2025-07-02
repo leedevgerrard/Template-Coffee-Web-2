@@ -274,8 +274,9 @@ p {
 .navbar-link {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  /* font-weight: 600; */
   padding-block: 5px;
+  text-transform: uppercase;
   max-width: unset;
   transition: 250ms ease;
 }
@@ -772,12 +773,13 @@ p {
 }
 
 .footer-navbar-link {
-  font-family: "Neuton", serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
   transition: 250ms ease;
 }
 
 .footer-navbar-link:is(:hover, :focus-visible) {
-  color: #fce205;
+  color: #ffe68d;
 }
 
 .footer-navbar-item {
@@ -808,7 +810,7 @@ p {
 }
 
 .social-media-link:is(:hover, :focus-visible) p {
-  color: #fce205;
+  color: #ffe68d;
 }
 
 .social-media-link ion-icon {
@@ -817,7 +819,7 @@ p {
 }
 
 .social-media-link:is(:hover, :focus-visible) ion-icon {
-  color: #fce205;
+  color: #ffe68d;
 }
 
 /* ------------- BACK TO TOP ------------- */
